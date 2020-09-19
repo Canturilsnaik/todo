@@ -10,7 +10,7 @@ Technologies used:
 -----------------------------
 
 You can use in link below: 
-  - canturil-todo.netlify.app
+  - https://canturil-todo.netlify.app/
 
 -----------------------------
 Next versions:
