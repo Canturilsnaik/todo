@@ -12,7 +12,7 @@ Technologies used:
 You can use in link below:
 
 
-=======================
+-----------------------------
 Next versions:
 - Local storage
 - Visual design
