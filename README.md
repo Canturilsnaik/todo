@@ -7,7 +7,7 @@ Technologies used:
 - CSS3
 - Javascript
 
-========================
+-----------------------------
 
 You can use in link below:
 
