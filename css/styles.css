@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+
+
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title{
+  text-align: center;
+}
+
+.incompleted{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.completed__li{
+  text-decoration: line-through;
+}
+
+.tasks{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+
+.btn--add{
+  background: #060e83;
+  background: linear-gradient(0deg, #060e83 0%, #0c19b4 100%);
+  border: none;
+  color: #f2f2f2;
+  height: 22px;
+  cursor: pointer;
+}
+
+.btn--add:hover{
+  background: #060e83;
+  background: linear-gradient(0deg, #2630be 100%, #2330c0 0%);
+}
+
+.btn--tasks{
+  background: rgb(46, 204, 113);
+  background: linear-gradient(10deg, rgb(28, 156, 81) 0%, rrgb(37, 212, 110)100%);
+  border: none;
+  height: 30px;
+}
+
+.btn--tasks:hover{
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5), 
+  -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+  inset -4px -4px 6px 0 rgba(255,255,255,.2),
+  inset 4px 4px 6px 0 rgba(0, 0, 0, .4); ;
+  cursor: pointer;
+  color: #f2f2f2;
+}
+
+.btn--remove{
+  background: #e74c3c;
+  border: none;
+  height: 30px;
+  width: 70px;
+}
+
+.btn--remove:hover{
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5), 
+  -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+  inset -4px -4px 6px 0 rgba(255,255,255,.2),
+  inset 4px 4px 6px 0 rgba(0, 0, 0, .4); ;
+  cursor: pointer;
+}
